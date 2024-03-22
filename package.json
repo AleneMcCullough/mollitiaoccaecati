@@ -1,0 +1,66 @@
+{
+  "name": "mollitiaoccaecati",
+  "version": "1.0.0",
+  "description": "tsioc is AOP, Ioc container, via typescript decorator",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "postinstall": "npm prune",
+    "reinstall": "npm cache clean && npm install",
+    "start": "gulp start",
+    "test": "gulp start --test",
+    "debug": "gulp start && node lib/debug.js",
+    "prepublish": "gulp start --release",
+    "e2e": "protractor",
+    "e2e.live": "protractor --elementExplorer"
+  },
+  "keywords": [
+    "ioc",
+    "repellat",
+    "AOP",
+    "maiores",
+    "decorator",
+    "autofac",
+    "magni",
+    "type",
+    "et"
+  ],
+  "author": "PearlineDavis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AleneMcCullough/mollitiaoccaecati.git"
+  },
+  "dependencies": {
+    "globby": "^7.1.1",
+    "reflect-metadata": "^0.1.10"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.1",
+    "checksum": "^0.1.1",
+    "development-assert-ts": "^2.1.3",
+    "development-core": "^2.1.6",
+    "development-tool": "^2.1.3",
+    "development-tool-node": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-html-replace": "^1.6.1",
+    "gulp-mocha": "^4.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-rollup": "^2.15.0",
+    "gulp-uglify": "^3.0.0",
+    "lodash": "^4.13.1",
+    "rollup": "^0.53.2",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "through2": "^2.0.3",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "tslint-stylish": "^2.1.0",
+    "typescript": "^2.5.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-paths": "^2.1.0",
+    "zone.js": "^0.8.5"
+  }
+}
